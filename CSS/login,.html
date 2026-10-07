@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+    .form-control{
+     width: 100%;
+     height: 100vh;
+     background-image: 
+     url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZoXSrgef5rCq93uOsTEgbZt0f2LDzyjg-d_23dajUxA&s=10) ;
+     background-position:center;
+     background-size: cover;
+     padding: 30px 500px;
+    }
+    .form{
+        width: 500px;
+        height: 700px;
+        background-image: rgb(172, 106, 106) 0px 5px 15px;
+        border-radius: 10px;
+        padding: 20px;
+        backdrop-filter: blur(5px);
+    }
+    .form h3{
+        text-align: center;
+        color: rgb(199, 245, 245);
+        font-size: 30px;
+        font-family:sans-serif ;
+    }
+    .form label{
+        font-size: 26px;
+        color: rgb(233, 246, 246);
+    }
+    .form input{
+        width: 100%;
+        height: 50px;
+        border-style: none;
+        border-radius: 5px;
+        outline-color: rgb(63, 63, 6);
+        padding: 10px;
+        box-shadow:rgb(16, 66, 147) 0px 5px 15px;
+    }
+    .form select{
+        width: 460px;
+        height: 40px;
+        border-style:none ;
+        border-radius: 5px;
+        outline-color: rgb(82, 82, 179);
+    }
+    .btn{
+        width:460px;
+        height: 40px;
+        margin-top: 30px;
+        border-style: none;
+        border-radius: 5px;
+        background-color: rgb(117, 138, 191);
+        color: aliceblue;
+    }
+</style>
+<body>
+    <div class="form-control">
+        <form class="form" action="">
+            <h3> Register Acount </h3>
+            <label for=" ">Username</label><br>
+            <input type="text" placeholder="Enter Username"><br>
+            <label for=" ">Email</label><br>
+            <input type="email" placeholder="Enter Email"><br>
+            <label for=" ">Password</label><br>
+            <input type="password" placeholder="Enter Password"><br>
+           <label>Select Gender</label><br>
+        <select name="" id="">
+            <option value="">Male</option>
+            <option value="">Female</option>
+        </select><br>
+        <button class="btn">Register</button>
+    
+        </form>
+    </div>
+</body>
+</html>

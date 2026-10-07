@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     *{
+        padding: 0;
+        box-sizing: border-box;  
+     }
+     .profile-control{
+        width: 500px;
+        height: 500px;
+        box-shadow:0px 5px 15px ;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 100px 100px;
+     }
+     .profile{
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        position: relative;
+        border-radius: 50%;
+     }
+     .profile img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+     }
+     .online{
+        width: 50px;
+        height: 50px;
+        background-color: chocolate;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        border-radius: 50%;
+        border: 3px solid white;
+     }
+</style>
+<body>
+    <div class="profile-control">
+        <div class="profile">
+           <div class="online"></div>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq_t7EfZwJUEqpjqJD-nclZ3G3DfO7fJ6HCxfnQj3ukA&s=10" alt="">
+        </div>
+    </div>
+</body>
+</html>
